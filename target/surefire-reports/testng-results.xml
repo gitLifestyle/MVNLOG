@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-12-26T21:01:13 IST" name="Suite" finished-at="2021-12-26T21:01:37 IST" duration-ms="23162">
+    <groups>
+      <group name="cucumber">
+        <method signature="TestRun.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:stepDefination.TestRun@51f116b8]" name="feature" class="stepDefination.TestRun"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2021-12-26T21:01:13 IST" name="Test" finished-at="2021-12-26T21:01:37 IST" duration-ms="23162">
+      <class name="stepDefination.TestRun">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:stepDefination.TestRun@51f116b8]" started-at="2021-12-26T21:01:13 IST" name="setUp" finished-at="2021-12-26T21:01:14 IST" duration-ms="400" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:stepDefination.TestRun@51f116b8]" started-at="2021-12-26T21:01:14 IST" name="feature" description="This is for testing" data-provider="features" finished-at="2021-12-26T21:01:37 IST" duration-ms="22551" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Facebook projects]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:stepDefination.TestRun@51f116b8]" started-at="2021-12-26T21:01:37 IST" name="tearDown" finished-at="2021-12-26T21:01:37 IST" duration-ms="35" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- stepDefination.TestRun -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
